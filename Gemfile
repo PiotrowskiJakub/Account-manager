@@ -9,6 +9,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'rb-readline', '~> 0.5.3'
+gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'react-rails', '~> 1.6.0'
 
 group :development, :test do
