@@ -31,7 +31,7 @@
       className: 'records'
       React.DOM.h2
         className: 'title'
-        'Records'
+        'Account manager'
       React.DOM.div
         className: 'row'
         React.createElement AmountBox, type: 'success', amount: @credits(), text: 'Credit'
