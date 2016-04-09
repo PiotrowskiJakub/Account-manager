@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rb-readline', '~> 0.5.3'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'react-rails', '~> 1.6.0'
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'byebug'
@@ -21,3 +22,6 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+
+
+ruby "2.3.0"
